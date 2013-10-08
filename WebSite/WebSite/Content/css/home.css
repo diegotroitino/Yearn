@@ -1,4 +1,16 @@
 ﻿.login-container 
 {
     margin-top: 20px;
+    padding: 20px;
+    background-color: #2C3E50
+}
+
+.login-form 
+{
+	max-width: 80%;
+}
+
+.form-control-placeholder 
+{
+    height: 34px;
 }
