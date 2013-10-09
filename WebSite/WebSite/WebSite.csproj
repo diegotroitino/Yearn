@@ -16,6 +16,10 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -126,13 +130,17 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\base.css" />
     <Content Include="Content\css\font-awesome-ie7.css" />
     <Content Include="Content\css\font-awesome-ie7.min.css" />
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\font-faces.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\css\home.css" />
+    <Content Include="Content\fonts\motionpicture-webfont.svg" />
+    <Content Include="Content\images\noise-background.png" />
     <Content Include="Content\scripts\libs\bootstrap.js" />
     <Content Include="Content\scripts\libs\bootstrap.min.js" />
     <Content Include="Content\scripts\libs\jquery-2.0.3.js" />
@@ -159,6 +167,9 @@
     <None Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <None Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <None Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\motionpicture-webfont.eot" />
+    <Content Include="Content\fonts\motionpicture-webfont.ttf" />
+    <Content Include="Content\fonts\motionpicture-webfont.woff" />
     <None Include="Content\scripts\libs\jquery-2.0.3.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>

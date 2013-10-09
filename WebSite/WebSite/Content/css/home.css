@@ -1,8 +1,21 @@
-﻿.login-container 
+﻿.logo-container h1
+{
+    text-align: center;
+    font: 120px 'MotionPicture';
+    margin-top: 0px;
+}
+
+.logo-container p
+{
+    margin-top: -25px;
+}
+
+
+.login-container 
 {
     margin-top: 20px;
     padding: 20px;
-    background-color: #2C3E50
+    background-color: #ed5565;
 }
 
 .login-form 
@@ -10,7 +23,29 @@
 	max-width: 80%;
 }
 
-.form-control-placeholder 
+.login-title 
 {
-    height: 34px;
+    font: 50px 'MotionPicture';
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.login-subtitle 
+{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.form-separator
+{
+    margin-top: 90px;
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+}
+
+.form-separator.visible-xs, .form-separator.visible-sm
+{
+    margin-top: 15px;
 }

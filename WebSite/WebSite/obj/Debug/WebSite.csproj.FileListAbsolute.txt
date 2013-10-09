@@ -31,3 +31,36 @@ C:\Users\Reinaldo Arrosi\Desktop\Yearn\WebSite\WebSite\bin\System.Web.WebPages.R
 C:\Users\Reinaldo Arrosi\Desktop\Yearn\WebSite\WebSite\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Reinaldo Arrosi\Desktop\Yearn\WebSite\WebSite\obj\Debug\WebSite.dll
 C:\Users\Reinaldo Arrosi\Desktop\Yearn\WebSite\WebSite\obj\Debug\WebSite.pdb
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\WebSite.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\WebSite.pdb
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\Antlr3.Runtime.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\Newtonsoft.Json.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Net.Http.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Net.Http.Formatting.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Net.Http.WebRequest.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Helpers.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Http.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Http.WebHost.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Mvc.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Optimization.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Razor.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.WebPages.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\WebGrease.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\Newtonsoft.Json.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Net.Http.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Net.Http.Formatting.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Net.Http.WebRequest.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Helpers.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Http.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Http.WebHost.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Mvc.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.Razor.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.WebPages.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\obj\Debug\WebSite.dll
+C:\Users\Reinaldo\Documents\GitHub\Yearn\WebSite\WebSite\obj\Debug\WebSite.pdb

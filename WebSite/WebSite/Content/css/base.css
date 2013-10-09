@@ -1,0 +1,20 @@
+﻿html,
+body
+{
+    background: url('../images/noise-background.png') repeat #fff; 
+}
+
+.form-control-placeholder 
+{
+    height: 34px;
+}
+
+.font-motion-picture 
+{
+    font-family: 'MotionPicture';
+}
+
+.text-white
+{
+    color: #fff;
+}

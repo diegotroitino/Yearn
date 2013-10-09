@@ -18,7 +18,9 @@ namespace WebSite.App_Start
 
             bundles.Add(new StyleBundle("~/bundles/css/core.css").Include(
                 "~/Content/css/bootstrap.css",
-                "~/Content/css/font-awesome.css"
+                "~/Content/css/font-awesome.css",
+                "~/Content/css/font-faces.css",
+                "~/Content/css/base.css"
                 )
             );
         }
