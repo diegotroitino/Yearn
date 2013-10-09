@@ -1,0 +1,48 @@
+﻿.navbar-default
+{
+	background-color: #ed5565;
+	border-radius: 0px;
+}
+
+.logo
+{
+    float: left;
+    font-family: 'MotionPicture';
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.sidebar
+{
+    background-color: #ccc; 
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar-toggle
+{
+    float: left;
+    background-color: transparent;
+    border: 0 solid #BA2232;
+    border-right-width: 1px;
+    height: 50px;
+}
+
+.sidebar-toggle:hover, .sidebar-toggle:focus 
+{
+	background-color: #E04858;
+}
+
+.sidebar-toggle .icon-bar 
+{
+    background-color: #333;
+    display: block;
+	width: 22px;
+	height: 2px;
+}
+
+.sidebar-toggle .icon-bar + .icon-bar 
+{
+	margin-top: 3px;
+}

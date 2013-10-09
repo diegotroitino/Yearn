@@ -1,0 +1,69 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+        <link rel="apple-touch-startup-image" href="~/Content/images/ios-startup-image-landscape.png" media="(orientation:landscape)" />
+        <link rel="apple-touch-startup-image" href="~/Content/images/ios-startup-image-portrait.png" media="(orientation:portrait)" />
+        <link rel="apple-touch-icon" href="~/Content/images/icon.png"/>
+        -->
+    @Styles.Render("~/bundles/css/core.css")
+    <link href="~/Content/css/user.css" rel="stylesheet" type="text/css" />
+    <!-- IE Mobile fix -->
+    <script type="text/javascript">
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            var mq = "@@-ms-viewport{width:auto!important}";
+            msViewportStyle.appendChild(document.createTextNode(mq));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-content">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <button type="button" class="sidebar-toggle visible-xs visible-sm" data-toggle="collapse" data-target="#sidebar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <span class="navbar-brand logo">Ticker.to</span>
+            </div>
+
+            <div id="navbar-content" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section>
+        <aside id="sidebar" class="sidebar">
+            teste2
+        </aside>
+
+        <div>
+            teste
+        </div>
+    </section>
+
+    @Scripts.Render("~/bundles/js/core.js")
+</body>
+</html>

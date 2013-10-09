@@ -1,4 +1,10 @@
-﻿.logo-container h1
+﻿html,
+body
+{
+    background: url('../images/noise-background.png') repeat #fff; 
+}
+
+.logo-container h1
 {
     text-align: center;
     font: 120px 'MotionPicture';

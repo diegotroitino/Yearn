@@ -1,7 +1,8 @@
-﻿html,
-body
+﻿input,
+button,
+textarea
 {
-    background: url('../images/noise-background.png') repeat #fff; 
+	outline: none;
 }
 
 .form-control-placeholder 
