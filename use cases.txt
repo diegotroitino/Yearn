@@ -1,0 +1,68 @@
+1. pessoa entra no site
+2. cadastra um novo evento (email, nome, data/hora)
+3. sistema cria um User com o email, timezone a partir da máquina local e password aleatório
+4. sistema cria um Event para o User recém criado com o nome, a data/hora e a timezone igual a do User
+5. sistema manda um email para o User recém criado com o password aleatório e informações sobre o Event recém criado.
+6. sistema faz login automaticamente para o User e redireciona para Events List.
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário clica em um Event
+5. usuário adiciona um Member ao Event
+6. se o email do Member já existir como um User, vincula este User ao Member
+7. se o email do Member não existir como um User, envia email para o Member oferecendo para se cadastrar
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário clica em um Event
+5. usuário faz um Comment no Event
+6. sistema armazena o Comment e notifica os demais Members do Event
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário apaga sua conta
+5. sistema limpa email, picture, timezone, password e atualiza Deleted In
+6. sistema não apaga o User
+7. Comments Events e Members deste usuário não são apagados e o name do User ainda é utilizado na visualização destes
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário clica em um Event
+5. usuário remove um Member
+6. sistema deleta o Member do Event
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário escolhe sair de um Event
+5. sistema pergunta e oferece as opções: sair, sair e bloquear, não sair
+6. se clicar em sair sistema deleta o Member do Event
+7. se clicar em sair e bloquear sistema deleta o Member do Event e adiciona o Event na lista de bloqueios do usuário
+8. se clicar em não sair sistema cancela a operção e não faz nada
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. para exibir a Events List avalia se a timezone do User é "utilizar a do computador local" ou outra timezone específica
+5. se for a timezone do computador local, identifica a timezone configurada no PC e calcula a data/hora do Event a partir do date & time UTC + timezone
+6. se for uma timezone específica, calcula a data/hora do Event a partir do date & time UTC + timezone específica
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário clica em um Event
+5. usuário clica para editar o Event
+6. sistema valida que o usuário logado é igual ao usuário que criou o Event
+7. para exibir a edição calcula a data/hora a partir do date & time do Event + timezone do Event (ignora a timezone do User na edição)
+
+1. pessoa entra no site
+2. informa email e senha
+3. sistema autentica o usuário e redireciona para Events List
+4. usuário clica em um Event
+5. usuário clica para remover o Event
+6. sistema valida que o usuário logado é igual ao usuário que criou o Event
+7. sistema remove o Event, Commets e Members vinculados

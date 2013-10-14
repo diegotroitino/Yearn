@@ -1,0 +1,33 @@
+Event
+  - ID
+  - Name
+  - Date & Time (UTC)
+  - Timezone (on new events defaults to user timezone)
+  - Location
+  - Picture
+  - Members (Type: Member)
+  - Created By (Type: User)
+  - Created In (UTC)
+  
+Comments
+	- EventID
+	- ID
+	- Message
+	- Created By (Type: User)
+	- Created In (UTC)
+  
+Members
+  - EventID
+  - Email
+  - User (Type: User, can be null)
+  - Added By (UTC)
+  - Added In (UTC)
+  
+User
+  - Email
+  - Name
+  - Picture
+  - Timezone (user can choose to use the local computer timezone automatically)
+  - Password (NOT a class member)
+  - Created In (UTC)
+  - Deleted In (UTC)
